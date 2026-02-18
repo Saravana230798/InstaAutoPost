@@ -10,6 +10,7 @@ public class InstagramService
     public InstagramService(IConfiguration config)
     {
         _config = config;
+
     }
 
     public async Task PostAsync(string caption, string imageUrl)

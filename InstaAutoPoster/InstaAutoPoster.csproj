@@ -21,4 +21,5 @@
   <ItemGroup>
     <Folder Include="templates\" />
   </ItemGroup>
+	
 </Project>

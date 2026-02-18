@@ -16,6 +16,7 @@ public class AiService
             new Uri("http://localhost:11434"));
 
         _kernel = builder.Build();
+
     }
 
     public async Task<string> GenerateContent()

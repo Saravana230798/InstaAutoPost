@@ -14,6 +14,7 @@ public class InstaJob : IJob
         _ai = ai;
         _image = image;
         _instagram = instagram;
+
     }
 
     public async Task Execute(IJobExecutionContext context)
