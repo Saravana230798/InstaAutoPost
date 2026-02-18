@@ -12,6 +12,7 @@ public class ImageGenerator
         using var bitmap = SKBitmap.Decode(randomTemplate);
         using var canvas = new SKCanvas(bitmap);
 
+
         var paint = new SKPaint
         {
             Color = SKColors.White,

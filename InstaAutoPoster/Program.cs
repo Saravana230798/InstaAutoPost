@@ -9,6 +9,7 @@ var builder = Host.CreateApplicationBuilder(args);
 
 builder.Services.AddWindowsService();
 
+
 builder.Services.AddQuartz(q =>
 {
     var jobKey = new JobKey("InstaJob");
